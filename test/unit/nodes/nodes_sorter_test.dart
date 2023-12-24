@@ -1,5 +1,4 @@
-import 'package:cfdi_elements/src/nodes/node.dart';
-import 'package:cfdi_elements/src/nodes/nodes_sorter.dart';
+import 'package:cfdi_elements/cfdi_elements.dart';
 import 'package:test/test.dart';
 
 void main() {

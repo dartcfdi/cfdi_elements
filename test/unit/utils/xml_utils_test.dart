@@ -1,4 +1,4 @@
-import 'package:cfdi_elements/src/utils/xml_utils.dart';
+import 'package:cfdi_elements/cfdi_elements.dart';
 import 'package:test/test.dart';
 
 void main() {

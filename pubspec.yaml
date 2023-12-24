@@ -1,7 +1,9 @@
 name: cfdi_elements
 description: Librería para contener las estructuras de datos que componen un cfdi.
 version: 1.0.0
+homepage: https://github.com/dartcfdi/cfdi_elements
 repository: https://github.com/dartcfdi/cfdi_elements
+issue_tracker: https://github.com/dartcfdi/cfdi_elements/issues
 
 # This package supports all platforms listed below.
 platforms:

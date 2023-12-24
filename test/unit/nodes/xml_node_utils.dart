@@ -1,8 +1,6 @@
 import 'dart:io';
 
-import 'package:cfdi_elements/src/nodes/node.dart';
-import 'package:cfdi_elements/src/nodes/xml_node_utils.dart';
-import 'package:cfdi_elements/src/utils/xml_utils.dart';
+import 'package:cfdi_elements/cfdi_elements.dart';
 import 'package:test/test.dart';
 
 import '../../test_case.dart';
