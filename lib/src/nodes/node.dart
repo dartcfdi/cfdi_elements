@@ -18,6 +18,15 @@ class Node implements NodeInterface {
     List<NodeInterface> children = const [],
     String value = '',
   ]) {
+    init(name, attributes, children, value);
+  }
+
+  void init(
+    String name, [
+    Map<String, dynamic> attributes = const {},
+    List<NodeInterface> children = const [],
+    String value = '',
+  ]) {
     if (!isValidXmlName(name)) {
       throw FormatException(
         'Cannot create a node with a invalid xml name: $name',

@@ -1,4 +1,3 @@
-import 'package:cfdi_elements/src/nodes/node.dart';
 import 'package:cfdi_elements/src/nodes/node_interface.dart';
 import 'package:cfdi_elements/src/nodes/xml_node_exporter.dart';
 import 'package:cfdi_elements/src/nodes/xml_node_importer.dart';
