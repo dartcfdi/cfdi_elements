@@ -1,0 +1,15 @@
+import 'package:cfdi_elements/src/elements/common/abstract_element.dart';
+
+class #element-name# extends AbstractElement {
+  #element-name#([
+    super.attributes,
+    super.children,
+  ]);
+
+  @override
+  String getElementName() {
+    return '#prefix#:#element-name#';
+  }
+
+  #sections#
+}

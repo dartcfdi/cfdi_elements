@@ -1,0 +1,8 @@
+  @override
+  Map<String, String> getFixedAttributes() {
+    return {
+      'xmlns:#prefix#': '#xml-namespace#',
+      'xsi:schemaLocation': '#xml-namespace# #xml-schemalocation#',
+      '#version-attribute#': '#version-value#',
+    };
+  }

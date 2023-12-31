@@ -1,0 +1,10 @@
+  #child-name# get#child-name#() {
+    return helperGetOrAdd(#child-name#());
+  }
+
+  #child-name# add#child-name#([Map<String, String> attributes = const {}]) {
+    final subject = get#child-name#();
+    subject.addAttributes(attributes);
+
+    return subject;
+  }

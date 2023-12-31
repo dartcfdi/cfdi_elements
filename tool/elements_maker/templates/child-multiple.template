@@ -1,0 +1,12 @@
+  #child-name# add#child-name#(Map<String, String> attributes) {
+    final subject = #child-name#(attributes);
+    addChild(subject);
+
+    return subject;
+  }
+
+  void multi#child-name#([List<Map<String, String>> elementAttributes = const []]) {
+    for (final attributes in elementAttributes) {
+      add#child-name#(attributes);
+    }
+  }
